@@ -1,8 +1,12 @@
 import React from "react";
+import MyAmazingTitle from "./components/MyAmazingTitle/MyAmazingTitle"
 
 export default () => (
   <>
-    <h1>Welcome to React Parcel Micro App!</h1>
+    <MyAmazingTitle />
+    <div className="main">
+      
+    </div>
     <p>Hard to get more minimal than this React app.</p>
   </>
 );
